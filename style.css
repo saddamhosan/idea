@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f3f1ff;
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  background-color: #562eff;
+  display: flex;
+  align-items: center;
+  height: 94px;
+  margin-bottom: 45px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 933px;
+  margin: auto;
+}
+.logo-image {
+  display: flex;
+  align-items: center;
+}
+.logo-image img {
+  width: 41px;
+  height: 51px;
+}
+.logo-image h2 {
+  color: white;
+  margin-left: 15px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.nav-item a {
+  text-decoration: none;
+  margin: 20px;
+  color: white;
+}
+section {
+  width: 870px;
+  margin: auto;
+  padding: 23px 33px 52px 30px;
+  background-color: #ffffff;
+}
+/* top player style */
+.title {
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #562eff;
+}
+.top-player {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.player {
+  display: flex;
+  align-items: center;
+}
+.player-image img {
+  width: 56px;
+  height: 56px;
+}
+.player-name {
+  margin-left: 16px;
+}
+.player-name h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+hr {
+  margin: 30px 0;
+  border: 1px solid #d1d1d1;
+}
+/* top blog style */
+.top-blog {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 26px;
+}
+.blog {
+  display: flex;
+}
+.blog-image img {
+  width: 177px;
+  height: 117px;
+}
+.blog-detail {
+  margin-left: 16px;
+}
+.blog-detail a {
+  text-decoration: none;
+  color: #562eff;
+}
+.course-container {
+  margin-top: 11px;
+  margin-bottom: 28px;
+}
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+}
+.course {
+  box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+  border-radius: 15px;
+  padding: 13px;
+}
+.course-image img {
+  width: 100%;
+}
+.course-detail h2,
+.blog-detail h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.course-detail p {
+  font-size: 15.5px;
+  font-weight: 400;
+  color: #ed6b4f;
+}
+.course-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fas {
+  font-size: 12px;
+}
+.fill {
+  color: #ffc014;
+}
+.empty {
+  color: #aeaeae;
+}
+.retting span {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #a2a2a2;
+}
+.time {
+  background-color: #fee5df;
+  border-radius: 15px;
+  color: #ff4a60;
+  padding: 5px;
+}
