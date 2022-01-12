@@ -17,7 +17,7 @@ nav {
 .navbar {
   display: flex;
   justify-content: space-between;
-  width: 933px;
+  width: 75%;
   margin: auto;
 }
 .logo-image {
@@ -42,7 +42,7 @@ nav {
   color: white;
 }
 section {
-  width: 870px;
+  width: 70%;
   margin: auto;
   padding: 23px 33px 52px 30px;
   background-color: #ffffff;
@@ -148,4 +148,31 @@ hr {
   border-radius: 15px;
   color: #ff4a60;
   padding: 5px;
+}
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+  .top-player {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .top-blog {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+  }
+
+  .courses {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 20px;
+  }
+}
+@media only screen and (max-width: 688px) {
+  .top-player {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .top-blog {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .courses {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+  }
 }
