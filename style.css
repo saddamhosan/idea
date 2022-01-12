@@ -171,6 +171,9 @@ hr {
     width: 95%;
     margin: auto;
   }
+  .nav-item a {
+    margin: 5px;
+  }
   .player {
     display: flex;
     flex-direction: column;
